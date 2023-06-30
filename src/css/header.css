@@ -154,6 +154,7 @@
     .logo {
         line-height: 1.25;
         font-size: 14px;
+        margin-right: 20px;
     }
 }
 
@@ -177,13 +178,13 @@
         align-items: center;
         gap: var(--soc-media-gap);
         margin-left: auto;
-        margin-right: 20px;
+        margin-right: 40px;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .header-container .soc-media {
-        gap: 16px;
+        gap: 20px;
     }
 }
 
@@ -192,8 +193,8 @@
 }
 
 .soc-media-icon {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     stroke: var(--main-white-txt-cl);
     fill: var(--main-white-txt-cl);
     transition: fill var(--main-transition), transform var(--main-transition);
