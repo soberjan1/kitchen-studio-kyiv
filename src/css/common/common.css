@@ -2,4 +2,6 @@ body {
     font-family: 'DM Sans', sans-serif;
     font-size: 14px;
     text-transform: uppercase;
+    background-color: var(--main-black-bg);
+    color: var(--main-dark-txt-cl);
 }
