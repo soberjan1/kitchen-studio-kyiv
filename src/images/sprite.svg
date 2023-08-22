@@ -9,10 +9,10 @@
     <path d="M26.462 7.456c0 1.060-0.859 1.919-1.919 1.919s-1.919-0.859-1.919-1.919c0-1.060 0.859-1.919 1.919-1.919s1.919 0.859 1.919 1.919z"></path>
     </symbol>
     <symbol id="chevron-left" viewBox="0 0 16 16">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width=".889" d="M9.778 11.111 6.667 8l3.111-3.111"/>
+      <path stroke-linecap="round" fill="white" stroke-linejoin="round" stroke-width=".889" d="M9.778 11.111 6.667 8l3.111-3.111"/>
     </symbol>
     <symbol id="chevron-right" viewBox="0 0 16 16">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width=".889" d="M6.222 11.111 9.333 8 6.222 4.889"/>
+      <path stroke-linecap="round" fill="white" stroke-linejoin="round" stroke-width=".889" d="M6.222 11.111 9.333 8 6.222 4.889"/>
     </symbol>
     <symbol id="chevron-down" viewBox="0 0 16 16">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.44" d="m4 6 4 4 4-4"/>

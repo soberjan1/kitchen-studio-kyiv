@@ -1,0 +1,21 @@
+.swiper {
+  padding-top: 78px;
+  width: 100%;
+}
+
+.swiper .swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  background-color: white; /* Новый цвет для точек */
+  transition: background-color 0.3s;
+}
+
+.hero {
+  position: relative;
+  z-index: -1;
+}
+
+.swiper-pagination {
+  position: absolute;
+  bottom: 0px;
+}
