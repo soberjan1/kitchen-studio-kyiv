@@ -1,18 +1,15 @@
-import Swiper from 'swiper/swiper-bundle';
-import 'swiper/swiper-bundle.css';
+import Glide from '@glidejs/glide';
 
-const swiper = new Swiper('.swiper', {
-  pagination: {
-    el: '.swiper-pagination',
-    type: 'bullets',
-    clickable: true,
-  },
+// document.addEventListener('DOMContentLoaded', function () {
+//   new Glide('.glide', {
+//     type: 'carousel',
+//     startAt: 0,
+//     perView: 1,
+//   }).mount();
+// });
 
-  speed: 1000,
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
-  },
-
-  slidesPerView: 1,
-});
+new Glide('.glide', {
+  type: 'carousel',
+  startAt: 0,
+  perView: 1,
+}).mount();

@@ -1,17 +1,28 @@
-<section class="hero">
-  <div class="swiper">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <img src="/src/images/hero-img/hero-1.jpg" alt="first" />
+<section>
+  <div class="hero-wrapp">
+    <div class="glide">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide">
+            <img src="/src/images/hero-img/hero-1.jpg" alt="1" />
+          </li>
+          <li class="glide__slide">
+            <img src="/src/images/hero-img/hero-2.jpg" alt="2" />
+          </li>
+          <li class="glide__slide">
+            <img src="/src/images/hero-img/hero-3.jpg" alt="3" />
+          </li>
+        </ul>
       </div>
-      <div class="swiper-slide">
-        <img src="/src/images/hero-img/hero-2.jpg" alt="second" />
-      </div>
-      <div class="swiper-slide">
-        <img src="/src/images/hero-img/hero-3.jpg" alt="third" />
+
+      <div class="glide__arrows" data-glide-el="controls">
+        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+          prev
+        </button>
+        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+          next
+        </button>
       </div>
     </div>
-
-    <div class="swiper-pagination"></div>
   </div>
 </section>
